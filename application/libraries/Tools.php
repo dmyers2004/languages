@@ -1,7 +1,7 @@
 <?php
 
 class Tools {
-	public $languages = ['en','fr','gr']; /* lanagues in prefered order */
+	public $languages = ['en','fr','de']; /* lanagues in prefered order */
 
 	public function figure_out_language($lang=null) {
 		$languages = get_instance()->agent->languages();
